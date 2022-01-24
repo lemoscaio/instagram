@@ -10,6 +10,8 @@ $cor-fonte-clara: #8E8E8E
 $cor-fonte-maisclara: #C7C7C7
 $cor-botao-seguir: #139EF2
 $cor-caixa-pesquisa: #FAFAFA
+$cor-botao-publicar: #B2DFFC
+$cor-botao-publicar--hover: #0095F6
 
 
 // Fontes
@@ -21,8 +23,9 @@ $fonte-padrao: 'Roboto', sans-serif
 $fonte-11px: 0.6875rem    
 $fonte-12px: 0.75rem
 $fonte-14px: 0.875rem
-$fonte-20px: 1.25rem
 $fonte-18px: 1.125rem
+$fonte-20px: 1.25rem
+$fonte-24px: 1.5rem
 $fonte-32px: 2rem
 $fonte-52px: 3.25rem
 
@@ -266,6 +269,7 @@ main
                 
                 background-image: url("../imagens/borda-stories.svg")
                 background-size: cover
+                background-position: center
 
                 width: 56px
                 height: 56px
@@ -478,31 +482,71 @@ main
             p
                 font-size: $fonte-14px
 
-        &__comentarios
-            margin: 0 15px 13px 15px
-            font-size: $fonte-14px
         
-        .comentario 
-            
-            display: flex
-            justify-content: space-between
-            
-            padding-top: 7px
 
-            &__conjunto
+        &__comentarios
+            margin: 0 15px
+            font-size: $fonte-14px
+
+            &__adicionar-comentario
+
+                margin: 15px 0 5px 0
+                padding: 0 15px
+
+                ion-icon
+                    font-size: $fonte-24px
+                    cursor: pointer
+                    
+
+                @extend %borda-padrao-top
                 display: flex
+                justify-content: space-between
+                padding-top: 5px
+                align-items: center
 
-            &__user
+                &__input
+                    flex-grow: 1
+                    margin: 0 5px
+                    border: none
+                    outline: none
+                    padding: 10px
+                    
+                    &::placeholder
+                        color: $cor-fonte-clara
 
-                padding-right: 5px
+                &__botao
+                    color: $cor-botao-publicar
+                    cursor: pointer
+                    transition: 300ms
+                    font-size: $fonte-14px
+                    
 
-            &__texto
+                    &:hover
+                        color: $cor-botao-publicar--hover
+        
+            .comentario 
+                
+                display: flex
+                justify-content: space-between
+                
+                padding-top: 7px
 
-                padding-right: 5px
+                &__conjunto
+                    display: flex
 
-            &__like
-                cursor: pointer
-                margin-right: 4px
+                &__user
+
+                    padding-right: 5px
+
+                &__texto
+
+                    padding-right: 5px
+
+                &__like
+                    cursor: pointer
+                    margin-right: 4px
+
+            
 
 // Barra inferior
 

@@ -204,33 +204,43 @@
                                 class="link-perfil-1">outras 101.523 pessoas</a></p>
                     </div>
                     <!-- Seção de comentários -->
-                    <div class="post__comentarios comentarios">
-                        <a href="#" class="link-perfil-1">
-                            <p><small>Ver todos os 1.778 comentários</small></p>
-                        </a>
-                        <!-- Unidade do comentário -->
-                        <div class="comentarios__comentario comentario">
-                            <div class="comentario__conjunto">
-                                <a href="#" class="link-perfil-2">
-                                    <p class="comentario__user">lemos_caio</p>
-                                </a>
-                                <p class="comentario__texto">Lindo do papai</p>
+                    <div class="post__secao-comentarios">
+                        <div class="post__comentarios comentarios">
+                            <a href="#" class="link-perfil-1">
+                                <p><small>Ver todos os 1.778 comentários</small></p>
+                            </a>
+                            <!-- Unidade do comentário -->
+                            <div class="comentarios__comentario comentario">
+                                <div class="comentario__conjunto">
+                                    <a href="#" class="link-perfil-2">
+                                        <p class="comentario__user">lemos_caio</p>
+                                    </a>
+                                    <p class="comentario__texto">Lindo do papai</p>
+                                </div>
+                                <div class="comentario__like botao">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </div>
                             </div>
-                            <div class="comentario__like botao">
-                                <ion-icon name="heart-outline"></ion-icon>
+                            <!-- Unidade do comentário -->
+                            <div class="comentarios__comentario comentario">
+                                <div class="comentario__conjunto">
+                                    <a href="#" class="link-perfil-2">
+                                        <p class="comentario__user">dandalob</p>
+                                    </a>
+                                    <p class="comentario__texto">Lindo da mamãe</p>
+                                </div>
+                                <div class="comentario__like botao">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </div>
                             </div>
                         </div>
-                        <!-- Unidade do comentário -->
-                        <div class="comentarios__comentario comentario">
-                            <div class="comentario__conjunto">
-                                <a href="#" class="link-perfil-2">
-                                    <p class="comentario__user">dandalob</p>
-                                </a>
-                                <p class="comentario__texto">Lindo da mamãe</p>
-                            </div>
-                            <div class="comentario__like botao">
-                                <ion-icon name="heart-outline"></ion-icon>
-                            </div>
+                        <!-- Caixa para adicionar comentário -->
+                        <div class="post__comentarios__adicionar-comentario adicionar-comentario">
+                            <ion-icon name="happy-outline"></ion-icon>
+                            <input class="post__comentarios__adicionar-comentario__input" type="text"
+                                placeholder="Adicione um comentário..." autocomplete="off">
+                            <p class="post__comentarios__adicionar-comentario__botao">Publicar</p>
+
                         </div>
                     </div>
                 </article>
@@ -276,6 +286,14 @@
                         <p>Curtido por <a href="#" class="link-perfil-2">dandalob</a> e <a href="#"
                                 class="link-perfil-1">outras 151.112 pessoas</a></p>
                     </div>
+                    <!-- Caixa para adicionar comentário -->
+                    <div class="post__comentarios__adicionar-comentario adicionar-comentario">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="post__comentarios__adicionar-comentario__input" type="text"
+                            placeholder="Adicione um comentário..." autocomplete="off">
+                        <p class="post__comentarios__adicionar-comentario__botao">Publicar</p>
+
+                    </div>
                 </article>
                 <!-- Post 3 -->
                 <article class="post">
@@ -309,9 +327,18 @@
                         </div>
                     </div>
                     <div class="post__info">
-                        <a href="#" class="link-perfil-icone"><img src="conteudos/caio-icone.jpg" alt="Ícone de Usuário" class="post__info__icone-usuario"></a>
+                        <a href="#" class="link-perfil-icone"><img src="conteudos/caio-icone.jpg" alt="Ícone de Usuário"
+                                class="post__info__icone-usuario"></a>
                         <p>Curtido por <a href="#" class="link-perfil-2">lemoscaio</a> e <a href="#"
                                 class="link-perfil-1">outras 199.954 pessoas</a></p>
+                    </div>
+                    <!-- Caixa para adicionar comentário -->
+                    <div class="post__comentarios__adicionar-comentario adicionar-comentario">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="post__comentarios__adicionar-comentario__input" type="text"
+                            placeholder="Adicione um comentário..." autocomplete="off">
+                        <p class="post__comentarios__adicionar-comentario__botao">Publicar</p>
+
                     </div>
                 </article>
                 <!-- Post 4 -->
@@ -351,7 +378,16 @@
                             <img src="conteudos/dandalob-icone.jpg" alt="Ícone de Usuário"
                                 class="post__info__icone-usuario">
                         </a>
-                        <p>Curtido por <a href="#" class="link-perfil-2">dandalob</a> e <a href="#" class="link-perfil-1">outras 103.974 pessoas</a></p>
+                        <p>Curtido por <a href="#" class="link-perfil-2">dandalob</a> e <a href="#"
+                                class="link-perfil-1">outras 103.974 pessoas</a></p>
+                    </div>
+                    <!-- Caixa para adicionar comentário -->
+                    <div class="post__comentarios__adicionar-comentario adicionar-comentario">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="post__comentarios__adicionar-comentario__input" type="text"
+                            placeholder="Adicione um comentário..." autocomplete="off">
+                        <p class="post__comentarios__adicionar-comentario__botao">Publicar</p>
+
                     </div>
                 </article>
                 <!-- Post 5 -->
@@ -387,8 +423,18 @@
                         </div>
                     </div>
                     <div class="post__info">
-                        <a href="#" class="link-perfil-icone"><img src="conteudos/caio-icone.jpg" alt="Ícone de Usuário" class="post__info__icone-usuario"></a>
-                        <p>Curtido por <a href="#" class="link-perfil-2">lemoscaio</a> e <a href="#" class="link-perfil-1">outras 1.903 pessoas</a></p>
+                        <a href="#" class="link-perfil-icone"><img src="conteudos/caio-icone.jpg" alt="Ícone de Usuário"
+                                class="post__info__icone-usuario"></a>
+                        <p>Curtido por <a href="#" class="link-perfil-2">lemoscaio</a> e <a href="#"
+                                class="link-perfil-1">outras 1.903 pessoas</a></p>
+                    </div>
+                    <!-- Caixa para adicionar comentário -->
+                    <div class="post__comentarios__adicionar-comentario adicionar-comentario">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="post__comentarios__adicionar-comentario__input" type="text"
+                            placeholder="Adicione um comentário..." autocomplete="off">
+                        <p class="post__comentarios__adicionar-comentario__botao">Publicar</p>
+
                     </div>
                 </article>
             </section>
@@ -399,7 +445,8 @@
             <aside class="barra-lateral">
                 <!-- Usuário principal -->
                 <div class="barra-lateral__usuario-principal usuario-principal">
-                    <a href="#" class="link-perfil-icone"><img src="conteudos/mark-icone.JPG" alt="Ícone do Usuário" class="usuario-principal__icone-usuario"></a>
+                    <a href="#" class="link-perfil-icone"><img src="conteudos/mark-icone.JPG" alt="Ícone do Usuário"
+                            class="usuario-principal__icone-usuario"></a>
                     <div class="usuario-principal__nome">
                         <a href="#" class="link-perfil-1">
                             <p class="usuario-principal__nome__user">markito2021</p>
