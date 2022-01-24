@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Tag apenas para refresh do navegador -->
+    <!-- <meta http-equiv="refresh" content="2" > -->
+</head>
+
+<body>
+    <header>
+        <!-- Menu do topo -->
+        <div class="topo-background">
+            <nav class="topo">
+                <a href="#" class="topo__icone-botao topo__icone-botao--desktop">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <div class="topo__conjunto-desktop">
+                    <a href="#" class="topo__icone-botao topo__icone-botao--mobile">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#" class="topo__logo">
+                        <img src="imagens/logo.png" alt="Logo do Instagram">
+                    </a>
+                </div>
+                <div class="topo__conjunto-desktop">
+                    <input class="topo__conjunto-desktop__caixa-pesquisa" placeholder="Pesquisar" autocomplete=off
+                        type="search" name="Caixa de Pesquisa" id="caixa-pesquisa">
+                </div>
+                <div class="topo__conjunto-desktop">
+                    <a href="#" class="topo__icone-botao">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                    </a>
+                    <div class="topo__conjunto-icones topo__conjunto-icones--mobile">
+                        <a href="#" class="topo__icone-botao">
+                            <ion-icon name="compass-outline"></ion-icon>
+                        </a>
+                        <a href="#" class="topo__icone-botao">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </a>
+                        <a href="#" class="topo__icone-botao">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Timeline com os stories, posts, barra lateral e barra inferior -->
+    <main class="timeline">
+
+        <!-- Stories, posts -->
+        <div class="timeline__coluna-principal">
+            <!-- Menu de stories -->
+            <section class="stories">
+                <!-- Seta - Forward -->
+                <div class="stories__seta-frente botao">
+                    <ion-icon name="chevron-forward-circle"></ion-icon>
+                </div>
+                <!-- Story 1 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/mark-icone.JPG"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            Você
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 2 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/bowie-icone.jpg"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            bowie.collie
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 3 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/caio-icone.jpg"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            lemos_caio
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 4 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/dandalob-icone.jpg"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            dandalob
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 5 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/casimiro-icone.JPG"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            casimiro
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 6 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/meltedvideos-icone.jpg"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            meltedvideos
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 7 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/alanzoka-icone.JPG"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            alanzoka
+                        </p>
+                    </div>
+                </a>
+                <!-- Story 8 -->
+                <a href="#" class="link">
+                    <div class="story">
+                        <div class="story__icone-usuario">
+                            <img class="story__icone-usuario__imagem" src="conteudos/salsichinhasbr-icone.JPG"
+                                alt="Ícone de usuário">
+                        </div>
+                        <p class="story__nome-usuario">
+                            salsichinhasbr
+                        </p>
+                    </div>
+                </a>
+
+            </section>
+            <!-- Timeline com posts -->
+            <section class="posts">
+                <!-- Post 1 -->
+                <article class="post">
+
+                    <div class="post__header">
+                        <div class="post__header__usuario">
+                            <a href="#" class="link-perfil-icone">
+                                <img class="post__header__usuario__icone-usuario" src="conteudos/mark-icone.JPG"
+                                    alt="Ícone do usuário">
+                            </a>
+                            <a href="#" class="link-perfil-1">
+                                <p class="post__header__usuario__nome-usuario">
+                                    Mark
+                                </p>
+                            </a>
+                        </div>
+                        <ion-icon class="botao" name="ellipsis-horizontal"></ion-icon>
+
+                    </div>
+
+                    <div class="post__conteudo">
+                        <img class="post__conteudo__imagem" src="conteudos/mark-post.JPG" alt="Conteúdo do post">
+                    </div>
+                    <div class="post__menu">
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="heart-outline"></ion-icon>
+                            <ion-icon class="botao" name="chatbubble-outline"></ion-icon>
+                            <ion-icon class="botao" name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="post__info">
+                        <a href="#" class="link-perfil-icone">
+                            <img src="conteudos/dandalob-icone.jpg" alt="Ícone de Usuário"
+                                class="post__info__icone-usuario">
+                        </a>
+                        <p>Curtido por <a href="#" class="link-perfil-2">dandalob</a> e <a href="#"
+                                class="link-perfil-1">outras 101.523 pessoas</a></p>
+                    </div>
+                    <!-- Seção de comentários -->
+                    <div class="post__comentarios comentarios">
+                        <a href="#" class="link-perfil-1">
+                            <p><small>Ver todos os 1.778 comentários</small></p>
+                        </a>
+                        <!-- Unidade do comentário -->
+                        <div class="comentarios__comentario comentario">
+                            <div class="comentario__conjunto">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="comentario__user">lemos_caio</p>
+                                </a>
+                                <p class="comentario__texto">Lindo do papai</p>
+                            </div>
+                            <div class="comentario__like botao">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <!-- Unidade do comentário -->
+                        <div class="comentarios__comentario comentario">
+                            <div class="comentario__conjunto">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="comentario__user">dandalob</p>
+                                </a>
+                                <p class="comentario__texto">Lindo da mamãe</p>
+                            </div>
+                            <div class="comentario__like botao">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Post 2 (vídeo) -->
+                <article class="post">
+
+                    <div class="post__header">
+                        <div class="post__header__usuario">
+                            <a href="#" class="link-perfil-icone">
+                                <img class="post__header__usuario__icone-usuario botao" src="conteudos/mark-icone.JPG"
+                                    alt="Ícone do usuário">
+                            </a>
+                            <a href="#" class="link-perfil-1">
+                                <p class="post__header__usuario__nome-usuario">
+                                    Mark
+                                </p>
+                            </a>
+                        </div>
+                        <ion-icon class="botao" name="ellipsis-horizontal"></ion-icon>
+                    </div>
+
+                    <div class="post__conteudo">
+                        <video loop autoplay muted class="post__conteudo__video" alt="Vídeo">
+                            <source src="conteudos/video.mp4" type="video/mp4" alt="Vídeo">
+                            <source src="conteudos/video.ogv" type="video/ogv" alt="Vídeo">
+                        </video>
+                    </div>
+                    <div class="post__menu">
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="heart-outline"></ion-icon>
+                            <ion-icon class="botao" name="chatbubble-outline"></ion-icon>
+                            <ion-icon class="botao" name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="post__info">
+                        <a href="#" class="link-perfil-icone">
+                            <img src="conteudos/dandalob-icone.jpg" alt="Ícone de Usuário"
+                                class="post__info__icone-usuario">
+                        </a>
+                        <p>Curtido por <a href="#" class="link-perfil-2">dandalob</a> e <a href="#"
+                                class="link-perfil-1">outras 151.112 pessoas</a></p>
+                    </div>
+                </article>
+                <!-- Post 3 -->
+                <article class="post">
+
+                    <div class="post__header">
+                        <div class="post__header__usuario">
+                            <a href="#" class="link-perfil-icone">
+                                <img class="post__header__usuario__icone-usuario botao"
+                                    src="conteudos/casimiro-icone.jpg" alt="Ícone do usuário">
+                            </a>
+                            <a href="#" class="link-perfil-1">
+                                <p class="post__header__usuario__nome-usuario">
+                                    casimiro
+                                </p>
+                            </a>
+                        </div>
+                        <ion-icon class="botao" name="ellipsis-horizontal"></ion-icon>
+                    </div>
+
+                    <div class="post__conteudo">
+                        <img class="post__conteudo__imagem" src="conteudos/casimiro-post.jpg" alt="Conteúdo do post">
+                    </div>
+                    <div class="post__menu">
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="heart-outline"></ion-icon>
+                            <ion-icon class="botao" name="chatbubble-outline"></ion-icon>
+                            <ion-icon class="botao" name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="post__info">
+                        <a href="#" class="link-perfil-icone"><img src="conteudos/caio-icone.jpg" alt="Ícone de Usuário" class="post__info__icone-usuario"></a>
+                        <p>Curtido por <a href="#" class="link-perfil-2">lemoscaio</a> e <a href="#"
+                                class="link-perfil-1">outras 199.954 pessoas</a></p>
+                    </div>
+                </article>
+                <!-- Post 4 -->
+                <article class="post">
+
+                    <div class="post__header">
+                        <div class="post__header__usuario">
+                            <a href="#" class="link-perfil-icone">
+                                <img class="post__header__usuario__icone-usuario botao"
+                                    src="conteudos/meltedvideos-icone.jpg" alt="Ícone do usuário">
+                            </a>
+                            <a href="#" class="link-perfil-1">
+                                <p class="post__header__usuario__nome-usuario">
+                                    meltedvideos
+                                </p>
+                            </a>
+                        </div>
+                        <ion-icon class="botao" name="ellipsis-horizontal"></ion-icon>
+                    </div>
+
+                    <div class="post__conteudo">
+                        <img class="post__conteudo__imagem" src="conteudos/meltedvideos-post.jpg"
+                            alt="Conteúdo do post">
+                    </div>
+                    <div class="post__menu">
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="heart-outline"></ion-icon>
+                            <ion-icon class="botao" name="chatbubble-outline"></ion-icon>
+                            <ion-icon class="botao" name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="post__info">
+                        <a href="#" class="link-perfil-icone">
+                            <img src="conteudos/dandalob-icone.jpg" alt="Ícone de Usuário"
+                                class="post__info__icone-usuario">
+                        </a>
+                        <p>Curtido por <a href="#" class="link-perfil-2">dandalob</a> e <a href="#" class="link-perfil-1">outras 103.974 pessoas</a></p>
+                    </div>
+                </article>
+                <!-- Post 5 -->
+                <article class="post">
+
+                    <div class="post__header">
+                        <div class="post__header__usuario">
+                            <a href="#" class="link-perfil-icone">
+                                <img class="post__header__usuario__icone-usuario botao"
+                                    src="conteudos/thedreamsetup-icone.jpg" alt="Ícone do usuário">
+                            </a>
+                            <a href="#" class="link-perfil-1">
+                                <p class="post__header__usuario__nome-usuario">
+                                    thedreamsetup
+                                </p>
+                            </a>
+                        </div>
+                        <ion-icon class="botao" name="ellipsis-horizontal"></ion-icon>
+                    </div>
+
+                    <div class="post__conteudo">
+                        <img class="post__conteudo__imagem" src="conteudos/thedreamsetup-post.jpg"
+                            alt="Conteúdo do post">
+                    </div>
+                    <div class="post__menu">
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="heart-outline"></ion-icon>
+                            <ion-icon class="botao" name="chatbubble-outline"></ion-icon>
+                            <ion-icon class="botao" name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div class="post__menu__icone-botao">
+                            <ion-icon class="botao" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="post__info">
+                        <a href="#" class="link-perfil-icone"><img src="conteudos/caio-icone.jpg" alt="Ícone de Usuário" class="post__info__icone-usuario"></a>
+                        <p>Curtido por <a href="#" class="link-perfil-2">lemoscaio</a> e <a href="#" class="link-perfil-1">outras 1.903 pessoas</a></p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <!-- Barra lateral -->
+        <div class="timeline__coluna-secundaria">
+            <!-- Barra lateral -->
+            <aside class="barra-lateral">
+                <!-- Usuário principal -->
+                <div class="barra-lateral__usuario-principal usuario-principal">
+                    <a href="#" class="link-perfil-icone"><img src="conteudos/mark-icone.JPG" alt="Ícone do Usuário" class="usuario-principal__icone-usuario"></a>
+                    <div class="usuario-principal__nome">
+                        <a href="#" class="link-perfil-1">
+                            <p class="usuario-principal__nome__user">markito2021</p>
+                        </a>
+                        <p class="usuario-principal__nome__nome-real"><small>Mark Lemos</small></p>
+                    </div>
+                </div>
+                <!-- Usuários recomendados -->
+                <div class="barra-lateral__usuarios-recomendados usuarios-recomendados">
+                    <!-- Linha do topo -->
+                    <div class="usuarios-recomendados__linha-topo">
+                        <p><small>Sugestões para você</small></p>
+                        <p><a href="#" class="link-perfil-1">Ver tudo</a></p>
+                    </div>
+                    <!-- Usuário recomendado -->
+                    <div class="usuarios-recomendados__conjunto">
+                        <div class="usuarios-recomendados__conjunto_usuario-recomendado usuario-recomendado">
+                            <a href="#" class="link-perfil-icone">
+                                <img src="conteudos/usuario-recomendado-1.jpg" alt="Ícone de Usuário"
+                                    class="usuario-recomendado__icone-usuario">
+                            </a>
+                            <div class="usuario-recomendado__nome">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="usuario-recomendado__nome__user">loki
+                                    </p>
+                                </a>
+                                <p class="usuario-recomendado__nome__status">Segue você</p>
+                            </div>
+                        </div>
+                        <p class="usuarios-recomendados__botao-seguir">Seguir</p>
+                    </div>
+                    <!-- Usuário recomendado -->
+                    <div class="usuarios-recomendados__conjunto">
+                        <div class="usuarios-recomendados__conjunto_usuario-recomendado usuario-recomendado">
+                            <a href="#" class="link-perfil-icone">
+                                <img src="conteudos/usuario-recomendado-2.jpg" alt="Ícone de Usuário"
+                                    class="usuario-recomendado__icone-usuario">
+                            </a>
+                            <div class="usuario-recomendado__nome">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="usuario-recomendado__nome__user">pipoca</p>
+                                </a>
+                                <p class="usuario-recomendado__nome__status">Segue você</p>
+                            </div>
+                        </div>
+                        <p class="usuarios-recomendados__botao-seguir">Seguir</p>
+                    </div>
+                    <!-- Usuário recomendado -->
+                    <div class="usuarios-recomendados__conjunto">
+                        <div class="usuarios-recomendados__conjunto_usuario-recomendado usuario-recomendado">
+                            <a href="#" class="link-perfil-icone">
+                                <img src="conteudos/usuario-recomendado-3.jpg" alt="Ícone de Usuário"
+                                    class="usuario-recomendado__icone-usuario">
+                            </a>
+                            <div class="usuario-recomendado__nome">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="usuario-recomendado__nome__user">nina</p>
+                                </a>
+                                <p class="usuario-recomendado__nome__status">Segue você</p>
+                            </div>
+                        </div>
+                        <p class="usuarios-recomendados__botao-seguir">Seguir</p>
+                    </div>
+                    <!-- Usuário recomendado -->
+                    <div class="usuarios-recomendados__conjunto">
+                        <div class="usuarios-recomendados__conjunto_usuario-recomendado usuario-recomendado">
+                            <a href="#" class="link-perfil-icone">
+                                <img src="conteudos/usuario-recomendado-4.jpg" alt=""
+                                    class="usuario-recomendado__icone-usuario">
+                            </a>
+                            <div class="usuario-recomendado__nome">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="usuario-recomendado__nome__user">luna</p>
+                                </a>
+                                <p class="usuario-recomendado__nome__status">Segue você</p>
+                            </div>
+                        </div>
+                        <p class="usuarios-recomendados__botao-seguir">Seguir</p>
+                    </div>
+                    <!-- Usuário recomendado -->
+                    <div class="usuarios-recomendados__conjunto">
+                        <div class="usuarios-recomendados__conjunto_usuario-recomendado usuario-recomendado">
+                            <a href="#" class="link-perfil-icone">
+                                <img src="conteudos/usuario-recomendado-5.jpg" alt=""
+                                    class="usuario-recomendado__icone-usuario">
+                            </a>
+                            <div class="usuario-recomendado__nome">
+                                <a href="#" class="link-perfil-2">
+                                    <p class="usuario-recomendado__nome__user">driven.education</p>
+                                </a>
+                                <p class="usuario-recomendado__nome__status">Novo no Instagram</p>
+                            </div>
+                        </div>
+                        <p class="usuarios-recomendados__botao-seguir">Seguir</p>
+                    </div>
+
+                </div>
+                <!-- Rodapé da Barra Lateral -->
+                <div class="barra-lateral__rodape">
+                    <ul class="barra-lateral__rodape__lista lista">
+                        <li class="lista-link"><a href="#" ">Sobre</a></li>
+                        <li class=" lista-link"><a href="#">Ajuda</a></li>
+                        <li class="lista-link"><a href="#">Imprensa</a></li>
+                        <li class="lista-link"><a href="#">API</a></li>
+                        <li class="lista-link"><a href="#">Carreiras</a></li>
+                        <li class="lista-link"><a href="#">Privacidade</a></li>
+                        <li class="lista-link"><a href="#">Termos</a></li>
+                        <li class="lista-link"><a href="#">Localizações</a></li>
+                        <li class="lista-link"><a href="#">Contas mais relevantes</a></li>
+                        <li class="lista-link"><a href="#">Hashtags</a></li>
+                        <li class="lista-link"><a href="#">Idiomas</a></li>
+                    </ul>
+                    <p>© 2021 INSTAGRAM DO FACEBOOK</p>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Barra inferior -->
+        <section class="barra-inferior">
+            <ion-icon class="barra-inferior__icones botao" name="home"></ion-icon>
+            <ion-icon class="barra-inferior__icones botao" name="search-outline"></ion-icon>
+            <ion-icon class="barra-inferior__icones botao" name="add-circle-outline"></ion-icon>
+            <ion-icon class="barra-inferior__icones botao" name="heart-outline"></ion-icon>
+            <ion-icon class="barra-inferior__icones botao" name="person-outline"></ion-icon>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Javascript para adicionar ícones -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
