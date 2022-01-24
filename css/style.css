@@ -251,8 +251,10 @@ main {
 .barra-lateral .usuario-principal__nome__user {
   padding-bottom: 5px;
 }
-.barra-lateral .usuarios-recomendados__linha-topo {
+.barra-lateral .usuarios-recomendados {
   font-size: 0.875rem;
+}
+.barra-lateral .usuarios-recomendados__linha-topo {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
