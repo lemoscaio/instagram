@@ -34,6 +34,16 @@
     - [x]  The arrow doesn't need to work (since it's only a HTML and SCSS project)
     - [x]   There can't be a visible horizontal scroll
 
+- Bonus
+  - Video
+    - [x]  At least one of the posts must be a video
+    - [x]  There's no need for a play button
+    - [x]  The video must be on the formats .mp4 or .ogg, so it can work in any browser
+    - [x]  The video must be played automatically
+    
+  - Comments
+    - [x]  There must have comments on the posts, with a like button on each comment
+    - [x]  There must have an input for a new comment using the `input` tag and a publish button
 
 ### Built with
 
